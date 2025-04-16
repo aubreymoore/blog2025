@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Aubrey Moore's Blog (Posts by Aubrey Moore)</title><link>https://example.com/</link><description></description><atom:link href="https://example.com/authors/aubrey-moore.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2025 &lt;a href="mailto:aubreymoore2013@gmail.com"&gt;Aubrey Moore&lt;/a&gt; </copyright><lastBuildDate>Fri, 11 Apr 2025 22:39:13 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Recording Insect Wingbeat Waveforms</title><link>https://example.com/posts/recording-insect-wingbeat-waveforms/</link><dc:creator>Aubrey Moore</dc:creator><description>&lt;section id="making-the-sensor"&gt;
+&lt;h2&gt;Making the sensor&lt;/h2&gt;
+&lt;/section&gt;
+&lt;section id="recording-signals"&gt;
+&lt;h2&gt;Recording signals&lt;/h2&gt;
+&lt;section id="hardware"&gt;
+&lt;h3&gt;Hardware&lt;/h3&gt;
+&lt;p&gt;I record using a USB sound card (&lt;a class="reference external" href="https://www.amazon.com/Adapter-CableCreation-External-Windows-Drivers/dp/B01H2XF8V8?th=1)"&gt;Cable Creation USB Audio External Sound Card&lt;/a&gt;).
+The sensor is plugged into the microphone jack of the USB device.&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id="software"&gt;
+&lt;h3&gt;Software&lt;/h3&gt;
+&lt;p&gt;I record using a Linux command line program called &lt;code class="docutils literal"&gt;arecord&lt;/code&gt;.
+To find the right parameters for the USB sound card, I run the following command which creates a list of installed audio devices.
+As you can see, it is recognized as card 2, device 0.&lt;/p&gt;
+&lt;div class="code"&gt;&lt;pre class="code bash"&gt;&lt;a id="rest_code_e470771331414d88a035fab1f472e8e3-1" name="rest_code_e470771331414d88a035fab1f472e8e3-1" href="https://example.com/posts/recording-insect-wingbeat-waveforms/#rest_code_e470771331414d88a035fab1f472e8e3-1"&gt;&lt;/a&gt;$&lt;span class="w"&gt; &lt;/span&gt;arecord&lt;span class="w"&gt; &lt;/span&gt;-l
+&lt;a id="rest_code_e470771331414d88a035fab1f472e8e3-2" name="rest_code_e470771331414d88a035fab1f472e8e3-2" href="https://example.com/posts/recording-insect-wingbeat-waveforms/#rest_code_e470771331414d88a035fab1f472e8e3-2"&gt;&lt;/a&gt;
+&lt;a id="rest_code_e470771331414d88a035fab1f472e8e3-3" name="rest_code_e470771331414d88a035fab1f472e8e3-3" href="https://example.com/posts/recording-insect-wingbeat-waveforms/#rest_code_e470771331414d88a035fab1f472e8e3-3"&gt;&lt;/a&gt;List&lt;span class="w"&gt; &lt;/span&gt;of&lt;span class="w"&gt; &lt;/span&gt;CAPTURE&lt;span class="w"&gt; &lt;/span&gt;Hardware&lt;span class="w"&gt; &lt;/span&gt;Devices
+&lt;a id="rest_code_e470771331414d88a035fab1f472e8e3-4" name="rest_code_e470771331414d88a035fab1f472e8e3-4" href="https://example.com/posts/recording-insect-wingbeat-waveforms/#rest_code_e470771331414d88a035fab1f472e8e3-4"&gt;&lt;/a&gt;card&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;0&lt;/span&gt;:&lt;span class="w"&gt; &lt;/span&gt;PCH&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;[&lt;/span&gt;HDA&lt;span class="w"&gt; &lt;/span&gt;Intel&lt;span class="w"&gt; &lt;/span&gt;PCH&lt;span class="o"&gt;]&lt;/span&gt;,&lt;span class="w"&gt; &lt;/span&gt;device&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;0&lt;/span&gt;:&lt;span class="w"&gt; &lt;/span&gt;ALC1220&lt;span class="w"&gt; &lt;/span&gt;Analog&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;[&lt;/span&gt;ALC1220&lt;span class="w"&gt; &lt;/span&gt;Analog&lt;span class="o"&gt;]&lt;/span&gt;
+&lt;a id="rest_code_e470771331414d88a035fab1f472e8e3-5" name="rest_code_e470771331414d88a035fab1f472e8e3-5" href="https://example.com/posts/recording-insect-wingbeat-waveforms/#rest_code_e470771331414d88a035fab1f472e8e3-5"&gt;&lt;/a&gt;Subdevices:&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;1&lt;/span&gt;/1
+&lt;a id="rest_code_e470771331414d88a035fab1f472e8e3-6" name="rest_code_e470771331414d88a035fab1f472e8e3-6" href="https://example.com/posts/recording-insect-wingbeat-waveforms/#rest_code_e470771331414d88a035fab1f472e8e3-6"&gt;&lt;/a&gt;Subdevice&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="c1"&gt;#0: subdevice #0&lt;/span&gt;
+&lt;a id="rest_code_e470771331414d88a035fab1f472e8e3-7" name="rest_code_e470771331414d88a035fab1f472e8e3-7" href="https://example.com/posts/recording-insect-wingbeat-waveforms/#rest_code_e470771331414d88a035fab1f472e8e3-7"&gt;&lt;/a&gt;card&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;2&lt;/span&gt;:&lt;span class="w"&gt; &lt;/span&gt;Creation&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;[&lt;/span&gt;Cable&lt;span class="w"&gt; &lt;/span&gt;Creation&lt;span class="o"&gt;]&lt;/span&gt;,&lt;span class="w"&gt; &lt;/span&gt;device&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;0&lt;/span&gt;:&lt;span class="w"&gt; &lt;/span&gt;USB&lt;span class="w"&gt; &lt;/span&gt;Audio&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;[&lt;/span&gt;USB&lt;span class="w"&gt; &lt;/span&gt;Audio&lt;span class="o"&gt;]&lt;/span&gt;
+&lt;a id="rest_code_e470771331414d88a035fab1f472e8e3-8" name="rest_code_e470771331414d88a035fab1f472e8e3-8" href="https://example.com/posts/recording-insect-wingbeat-waveforms/#rest_code_e470771331414d88a035fab1f472e8e3-8"&gt;&lt;/a&gt;Subdevices:&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;1&lt;/span&gt;/1
+&lt;a id="rest_code_e470771331414d88a035fab1f472e8e3-9" name="rest_code_e470771331414d88a035fab1f472e8e3-9" href="https://example.com/posts/recording-insect-wingbeat-waveforms/#rest_code_e470771331414d88a035fab1f472e8e3-9"&gt;&lt;/a&gt;Subdevice&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="c1"&gt;#0: subdevice #0&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;We can now record a 10 second audio file using the following command.
+The parameters are:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;p&gt;&lt;code class="docutils literal"&gt;&lt;span class="pre"&gt;-D&lt;/span&gt; hw:2,0&lt;/code&gt;: the device to record from (card 2, device 0)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;code class="docutils literal"&gt;&lt;span class="pre"&gt;-d&lt;/span&gt; 10&lt;/code&gt;: the duration of the recording (10 seconds)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;code class="docutils literal"&gt;&lt;span class="pre"&gt;-f&lt;/span&gt; dat&lt;/code&gt;: the format of the recording (dat) (16 bit little endian, 48000 Hz)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;code class="docutils literal"&gt;&lt;span class="pre"&gt;-c&lt;/span&gt; 1&lt;/code&gt;: the number of channels (1 channel, mono)&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="code"&gt;&lt;pre class="code bash"&gt;&lt;a id="rest_code_f0736fca5a5b49bb9d166be9107b4a5f-1" name="rest_code_f0736fca5a5b49bb9d166be9107b4a5f-1" href="https://example.com/posts/recording-insect-wingbeat-waveforms/#rest_code_f0736fca5a5b49bb9d166be9107b4a5f-1"&gt;&lt;/a&gt;$&lt;span class="w"&gt; &lt;/span&gt;arecord&lt;span class="w"&gt; &lt;/span&gt;-D&lt;span class="w"&gt; &lt;/span&gt;hw:2,0&lt;span class="w"&gt; &lt;/span&gt;-d&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;10&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;-f&lt;span class="w"&gt; &lt;/span&gt;dat&lt;span class="w"&gt; &lt;/span&gt;-c&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;1&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;audio.wav
+&lt;a id="rest_code_f0736fca5a5b49bb9d166be9107b4a5f-2" name="rest_code_f0736fca5a5b49bb9d166be9107b4a5f-2" href="https://example.com/posts/recording-insect-wingbeat-waveforms/#rest_code_f0736fca5a5b49bb9d166be9107b4a5f-2"&gt;&lt;/a&gt;
+&lt;a id="rest_code_f0736fca5a5b49bb9d166be9107b4a5f-3" name="rest_code_f0736fca5a5b49bb9d166be9107b4a5f-3" href="https://example.com/posts/recording-insect-wingbeat-waveforms/#rest_code_f0736fca5a5b49bb9d166be9107b4a5f-3"&gt;&lt;/a&gt;Recording&lt;span class="w"&gt; &lt;/span&gt;WAVE&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s1"&gt;'audio.wav'&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;:&lt;span class="w"&gt; &lt;/span&gt;Signed&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;16&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;bit&lt;span class="w"&gt; &lt;/span&gt;Little&lt;span class="w"&gt; &lt;/span&gt;Endian,&lt;span class="w"&gt; &lt;/span&gt;Rate&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;48000&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;Hz,&lt;span class="w"&gt; &lt;/span&gt;Mono
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/section&gt;
+&lt;/section&gt;</description><category>wingbeat</category><guid>https://example.com/posts/recording-insect-wingbeat-waveforms/</guid><pubDate>Fri, 11 Apr 2025 09:14:51 GMT</pubDate></item><item><title>newest_post</title><link>https://example.com/posts/newest_post/</link><dc:creator>Aubrey Moore</dc:creator><description>&lt;h2&gt;Heading 1&lt;/h2&gt;
+&lt;h3&gt;Heading 2&lt;/h3&gt;
+&lt;h4&gt;Heading 3&lt;/h4&gt;
+&lt;h5&gt;Heading 4&lt;/h5&gt;
+&lt;h6&gt;Heading 5&lt;/h6&gt;
+&lt;h6&gt;Heading 6&lt;/h6&gt;
+&lt;p&gt;&lt;a href="https://example.com/posts/shiny-new-post/"&gt;Shiny New Post&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://jiaweizhuang.github.io/blog/nikola-guide/"&gt;Personal Website with Jupyter Support using Nikola and GitHub Page&lt;/a&gt;&lt;/p&gt;</description><guid>https://example.com/posts/newest_post/</guid><pubDate>Thu, 10 Apr 2025 01:42:09 GMT</pubDate></item><item><title>Shiny New Post</title><link>https://example.com/posts/shiny-new-post/</link><dc:creator>Aubrey Moore</dc:creator><description>&lt;p&gt;First paragraph.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Second paragraph.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Third paragraph.&lt;/p&gt;
+&lt;section id="chapter-1-title"&gt;
+&lt;h2&gt;Chapter 1 Title&lt;/h2&gt;
+&lt;section id="section-1-1-title"&gt;
+&lt;h3&gt;Section 1.1 Title&lt;/h3&gt;
+&lt;section id="subsection-1-1-1-title"&gt;
+&lt;h4&gt;Subsection 1.1.1 Title&lt;/h4&gt;
+&lt;/section&gt;
+&lt;/section&gt;
+&lt;section id="section-1-2-title"&gt;
+&lt;h3&gt;Section 1.2 Title&lt;/h3&gt;
+&lt;/section&gt;
+&lt;/section&gt;
+&lt;section id="chapter-2-title"&gt;
+&lt;h2&gt;Chapter 2 Title&lt;/h2&gt;
+&lt;/section&gt;</description><guid>https://example.com/posts/shiny-new-post/</guid><pubDate>Thu, 10 Apr 2025 01:22:18 GMT</pubDate></item></channel></rss>
