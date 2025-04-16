@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Aubrey Moore's Blog</title><link>https://aubreymoore.github.io/blog2025/</link><description>This is Aubrey Moore's blog.</description><atom:link href="https://aubreymoore.github.io/blog2025/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2025 &lt;a href="mailto:aubreymoore2013@gmail.com"&gt;Aubrey Moore&lt;/a&gt; </copyright><lastBuildDate>Wed, 16 Apr 2025 02:45:19 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Recording Insect Wingbeat Waveforms</title><link>https://aubreymoore.github.io/blog2025/posts/recording-insect-wingbeat-waveforms/</link><dc:creator>Aubrey Moore</dc:creator><description>&lt;p&gt;Updated 2025-04-16&lt;/p&gt;
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Aubrey Moore's Blog</title><link>https://aubreymoore.github.io/blog2025/</link><description>This is Aubrey Moore's blog.</description><atom:link href="https://aubreymoore.github.io/blog2025/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2025 &lt;a href="mailto:aubreymoore2013@gmail.com"&gt;Aubrey Moore&lt;/a&gt; </copyright><lastBuildDate>Wed, 16 Apr 2025 03:11:07 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>blog2025 technical notes</title><link>https://aubreymoore.github.io/blog2025/posts/blog2025-technical-notes/</link><dc:creator>Aubrey Moore</dc:creator><description>&lt;h2&gt;blog2025 technical notes&lt;/h2&gt;
+&lt;h3&gt;Nikola installation&lt;/h3&gt;
+&lt;p&gt;Nikola was installed following directions at https://getnikola.com/getting-started.html&lt;/p&gt;
+&lt;h3&gt;Updating the blog&lt;/h3&gt;
+&lt;p&gt;Load the blog source directory into vscode:&lt;/p&gt;
+&lt;div class="code"&gt;&lt;pre class="code literal-block"&gt;# Navigate to the blog site repository directory
+cd ~/Desktop/nikola-env/blog2025
+
+# Activate virtual environment
+source ../bin/activate
+
+# Open directory in vscode
+code .
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h3&gt;Creating a new post&lt;/h3&gt;
+&lt;p&gt;Open a terminal and type &lt;code&gt;nikola new_post&lt;/code&gt;, then edit the new file in the &lt;code&gt;posts&lt;/code&gt; directory.&lt;/p&gt;
+&lt;h3&gt;Deploying updates to GitHub pages&lt;/h3&gt;
+&lt;p&gt;Open a terminal and type &lt;code&gt;nikola github_deploy&lt;/code&gt;.&lt;/p&gt;</description><category>blog</category><category>nikola</category><category>python</category><guid>https://aubreymoore.github.io/blog2025/posts/blog2025-technical-notes/</guid><pubDate>Wed, 16 Apr 2025 00:00:00 GMT</pubDate></item><item><title>Recording Insect Wingbeat Waveforms</title><link>https://aubreymoore.github.io/blog2025/posts/recording-insect-wingbeat-waveforms/</link><dc:creator>Aubrey Moore</dc:creator><description>&lt;p&gt;Updated 2025-04-16&lt;/p&gt;
 &lt;section id="making-the-sensor"&gt;
 &lt;h2&gt;Making the sensor&lt;/h2&gt;
 &lt;p&gt;Coming soon.&lt;/p&gt;
