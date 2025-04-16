@@ -5,10 +5,7 @@
 .. author: Aubrey Moore
 .. category: nikola
 
-# blog2025 technical notes
-
 ## Nikola installation
-
 Nikola was installed following directions at https://getnikola.com/getting-started.html
 
 ## Updating the blog
