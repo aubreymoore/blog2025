@@ -11,6 +11,8 @@
 Making the sensor
 =================
 
+Coming soon.
+
 Recording signals
 =================
 
