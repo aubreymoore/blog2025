@@ -6,51 +6,51 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <sitemap>
-  <loc>https://example.com/authors/aubrey-moore.xml</loc>
-  <lastmod>2025-04-11T22:39:00Z</lastmod>
+  <loc>https://aubreymoore.github.io/blog2025/authors/aubrey-moore.xml</loc>
+  <lastmod>2025-04-16T02:17:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>https://example.com/authors/roberto-alsina.xml</loc>
-  <lastmod>2025-04-10T02:21:00Z</lastmod>
+  <loc>https://aubreymoore.github.io/blog2025/authors/roberto-alsina.xml</loc>
+  <lastmod>2025-04-16T02:17:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>https://example.com/categories/blog.xml</loc>
-  <lastmod>2025-04-10T02:21:00Z</lastmod>
+  <loc>https://aubreymoore.github.io/blog2025/categories/blog.xml</loc>
+  <lastmod>2025-04-16T02:17:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>https://example.com/categories/cat_nikola.xml</loc>
-  <lastmod>2025-04-10T02:21:00Z</lastmod>
+  <loc>https://aubreymoore.github.io/blog2025/categories/cat_nikola.xml</loc>
+  <lastmod>2025-04-16T02:17:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>https://example.com/categories/demo.xml</loc>
-  <lastmod>2025-04-10T02:21:00Z</lastmod>
+  <loc>https://aubreymoore.github.io/blog2025/categories/demo.xml</loc>
+  <lastmod>2025-04-16T02:17:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>https://example.com/categories/nikola.xml</loc>
-  <lastmod>2025-04-10T02:21:00Z</lastmod>
+  <loc>https://aubreymoore.github.io/blog2025/categories/nikola.xml</loc>
+  <lastmod>2025-04-16T02:17:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>https://example.com/categories/python.xml</loc>
-  <lastmod>2025-04-10T02:21:00Z</lastmod>
+  <loc>https://aubreymoore.github.io/blog2025/categories/python.xml</loc>
+  <lastmod>2025-04-16T02:17:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>https://example.com/categories/wingbeat.xml</loc>
-  <lastmod>2025-04-11T22:39:00Z</lastmod>
+  <loc>https://aubreymoore.github.io/blog2025/categories/wingbeat.xml</loc>
+  <lastmod>2025-04-16T02:17:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>https://example.com/galleries/demo/rss.xml</loc>
-  <lastmod>2025-04-10T02:21:00Z</lastmod>
+  <loc>https://aubreymoore.github.io/blog2025/galleries/demo/rss.xml</loc>
+  <lastmod>2025-04-16T02:17:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>https://example.com/galleries/rss.xml</loc>
-  <lastmod>2025-04-10T02:21:00Z</lastmod>
+  <loc>https://aubreymoore.github.io/blog2025/galleries/rss.xml</loc>
+  <lastmod>2025-04-16T02:17:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>https://example.com/rss.xml</loc>
-  <lastmod>2025-04-11T22:39:00Z</lastmod>
+  <loc>https://aubreymoore.github.io/blog2025/rss.xml</loc>
+  <lastmod>2025-04-16T02:17:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>https://example.com/sitemap.xml</loc>
-  <lastmod>2025-04-16T01:07:00Z</lastmod>
+  <loc>https://aubreymoore.github.io/blog2025/sitemap.xml</loc>
+  <lastmod>2025-04-16T02:17:00Z</lastmod>
  </sitemap>
 </sitemapindex>

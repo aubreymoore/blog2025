@@ -9,23 +9,21 @@
 <meta name="theme-color" content="#5670d4">
 <meta name="generator" content="Nikola (getnikola.com)">
 <link rel="alternate" type="application/rss+xml" title="RSS" hreflang="en" href="../../rss.xml">
-<link rel="canonical" href="https://example.com/posts/recording-insect-wingbeat-waveforms/">
+<link rel="canonical" href="https://aubreymoore.github.io/blog2025/posts/recording-insect-wingbeat-waveforms/">
 <!--[if lt IE 9]><script src="../../assets/js/html5.js"></script><![endif]--><meta name="author" content="Aubrey Moore">
 <link rel="prev" href="../newest_post/" title="newest_post" type="text/html">
 <meta property="og:site_name" content="Aubrey Moore's Blog">
 <meta property="og:title" content="Recording Insect Wingbeat Waveforms">
-<meta property="og:url" content="https://example.com/posts/recording-insect-wingbeat-waveforms/">
+<meta property="og:url" content="https://aubreymoore.github.io/blog2025/posts/recording-insect-wingbeat-waveforms/">
 <meta property="og:description" content="Making the sensor
+Coming soon.
 
 
 Recording signals
 
 Hardware
 I record using a USB sound card (Cable Creation USB Audio External Sound Card).
-The sensor is plugged into the microphone jack of the USB device.
-
-
-Soft">
+The sensor is plugged into the microphone jack of the USB d">
 <meta property="og:type" content="article">
 <meta property="article:published_time" content="2025-04-11T09:14:51Z">
 <meta property="article:tag" content="wingbeat">
@@ -104,6 +102,7 @@ bg-dark
 
     </header><div class="e-content entry-content" itemprop="articleBody text">
     <section id="making-the-sensor"><h2>Making the sensor</h2>
+<p>Coming soon.</p>
 </section><section id="recording-signals"><h2>Recording signals</h2>
 <section id="hardware"><h3>Hardware</h3>
 <p>I record using a USB sound card (<a class="reference external" href="https://www.amazon.com/Adapter-CableCreation-External-Windows-Drivers/dp/B01H2XF8V8?th=1)">Cable Creation USB Audio External Sound Card</a>).
@@ -112,15 +111,15 @@ The sensor is plugged into the microphone jack of the USB device.</p>
 <p>I record using a Linux command line program called <code class="docutils literal">arecord</code>.
 To find the right parameters for the USB sound card, I run the following command which creates a list of installed audio devices.
 As you can see, it is recognized as card 2, device 0.</p>
-<div class="code"><pre class="code bash"><a id="rest_code_e470771331414d88a035fab1f472e8e3-1" name="rest_code_e470771331414d88a035fab1f472e8e3-1" href="#rest_code_e470771331414d88a035fab1f472e8e3-1"></a>$<span class="w"> </span>arecord<span class="w"> </span>-l
-<a id="rest_code_e470771331414d88a035fab1f472e8e3-2" name="rest_code_e470771331414d88a035fab1f472e8e3-2" href="#rest_code_e470771331414d88a035fab1f472e8e3-2"></a>
-<a id="rest_code_e470771331414d88a035fab1f472e8e3-3" name="rest_code_e470771331414d88a035fab1f472e8e3-3" href="#rest_code_e470771331414d88a035fab1f472e8e3-3"></a>List<span class="w"> </span>of<span class="w"> </span>CAPTURE<span class="w"> </span>Hardware<span class="w"> </span>Devices
-<a id="rest_code_e470771331414d88a035fab1f472e8e3-4" name="rest_code_e470771331414d88a035fab1f472e8e3-4" href="#rest_code_e470771331414d88a035fab1f472e8e3-4"></a>card<span class="w"> </span><span class="m">0</span>:<span class="w"> </span>PCH<span class="w"> </span><span class="o">[</span>HDA<span class="w"> </span>Intel<span class="w"> </span>PCH<span class="o">]</span>,<span class="w"> </span>device<span class="w"> </span><span class="m">0</span>:<span class="w"> </span>ALC1220<span class="w"> </span>Analog<span class="w"> </span><span class="o">[</span>ALC1220<span class="w"> </span>Analog<span class="o">]</span>
-<a id="rest_code_e470771331414d88a035fab1f472e8e3-5" name="rest_code_e470771331414d88a035fab1f472e8e3-5" href="#rest_code_e470771331414d88a035fab1f472e8e3-5"></a>Subdevices:<span class="w"> </span><span class="m">1</span>/1
-<a id="rest_code_e470771331414d88a035fab1f472e8e3-6" name="rest_code_e470771331414d88a035fab1f472e8e3-6" href="#rest_code_e470771331414d88a035fab1f472e8e3-6"></a>Subdevice<span class="w"> </span><span class="c1">#0: subdevice #0</span>
-<a id="rest_code_e470771331414d88a035fab1f472e8e3-7" name="rest_code_e470771331414d88a035fab1f472e8e3-7" href="#rest_code_e470771331414d88a035fab1f472e8e3-7"></a>card<span class="w"> </span><span class="m">2</span>:<span class="w"> </span>Creation<span class="w"> </span><span class="o">[</span>Cable<span class="w"> </span>Creation<span class="o">]</span>,<span class="w"> </span>device<span class="w"> </span><span class="m">0</span>:<span class="w"> </span>USB<span class="w"> </span>Audio<span class="w"> </span><span class="o">[</span>USB<span class="w"> </span>Audio<span class="o">]</span>
-<a id="rest_code_e470771331414d88a035fab1f472e8e3-8" name="rest_code_e470771331414d88a035fab1f472e8e3-8" href="#rest_code_e470771331414d88a035fab1f472e8e3-8"></a>Subdevices:<span class="w"> </span><span class="m">1</span>/1
-<a id="rest_code_e470771331414d88a035fab1f472e8e3-9" name="rest_code_e470771331414d88a035fab1f472e8e3-9" href="#rest_code_e470771331414d88a035fab1f472e8e3-9"></a>Subdevice<span class="w"> </span><span class="c1">#0: subdevice #0</span>
+<div class="code"><pre class="code bash"><a id="rest_code_1dcdcc7ca6b7436e8f17ab500f2489d3-1" name="rest_code_1dcdcc7ca6b7436e8f17ab500f2489d3-1" href="#rest_code_1dcdcc7ca6b7436e8f17ab500f2489d3-1"></a>$<span class="w"> </span>arecord<span class="w"> </span>-l
+<a id="rest_code_1dcdcc7ca6b7436e8f17ab500f2489d3-2" name="rest_code_1dcdcc7ca6b7436e8f17ab500f2489d3-2" href="#rest_code_1dcdcc7ca6b7436e8f17ab500f2489d3-2"></a>
+<a id="rest_code_1dcdcc7ca6b7436e8f17ab500f2489d3-3" name="rest_code_1dcdcc7ca6b7436e8f17ab500f2489d3-3" href="#rest_code_1dcdcc7ca6b7436e8f17ab500f2489d3-3"></a>List<span class="w"> </span>of<span class="w"> </span>CAPTURE<span class="w"> </span>Hardware<span class="w"> </span>Devices
+<a id="rest_code_1dcdcc7ca6b7436e8f17ab500f2489d3-4" name="rest_code_1dcdcc7ca6b7436e8f17ab500f2489d3-4" href="#rest_code_1dcdcc7ca6b7436e8f17ab500f2489d3-4"></a>card<span class="w"> </span><span class="m">0</span>:<span class="w"> </span>PCH<span class="w"> </span><span class="o">[</span>HDA<span class="w"> </span>Intel<span class="w"> </span>PCH<span class="o">]</span>,<span class="w"> </span>device<span class="w"> </span><span class="m">0</span>:<span class="w"> </span>ALC1220<span class="w"> </span>Analog<span class="w"> </span><span class="o">[</span>ALC1220<span class="w"> </span>Analog<span class="o">]</span>
+<a id="rest_code_1dcdcc7ca6b7436e8f17ab500f2489d3-5" name="rest_code_1dcdcc7ca6b7436e8f17ab500f2489d3-5" href="#rest_code_1dcdcc7ca6b7436e8f17ab500f2489d3-5"></a>Subdevices:<span class="w"> </span><span class="m">1</span>/1
+<a id="rest_code_1dcdcc7ca6b7436e8f17ab500f2489d3-6" name="rest_code_1dcdcc7ca6b7436e8f17ab500f2489d3-6" href="#rest_code_1dcdcc7ca6b7436e8f17ab500f2489d3-6"></a>Subdevice<span class="w"> </span><span class="c1">#0: subdevice #0</span>
+<a id="rest_code_1dcdcc7ca6b7436e8f17ab500f2489d3-7" name="rest_code_1dcdcc7ca6b7436e8f17ab500f2489d3-7" href="#rest_code_1dcdcc7ca6b7436e8f17ab500f2489d3-7"></a>card<span class="w"> </span><span class="m">2</span>:<span class="w"> </span>Creation<span class="w"> </span><span class="o">[</span>Cable<span class="w"> </span>Creation<span class="o">]</span>,<span class="w"> </span>device<span class="w"> </span><span class="m">0</span>:<span class="w"> </span>USB<span class="w"> </span>Audio<span class="w"> </span><span class="o">[</span>USB<span class="w"> </span>Audio<span class="o">]</span>
+<a id="rest_code_1dcdcc7ca6b7436e8f17ab500f2489d3-8" name="rest_code_1dcdcc7ca6b7436e8f17ab500f2489d3-8" href="#rest_code_1dcdcc7ca6b7436e8f17ab500f2489d3-8"></a>Subdevices:<span class="w"> </span><span class="m">1</span>/1
+<a id="rest_code_1dcdcc7ca6b7436e8f17ab500f2489d3-9" name="rest_code_1dcdcc7ca6b7436e8f17ab500f2489d3-9" href="#rest_code_1dcdcc7ca6b7436e8f17ab500f2489d3-9"></a>Subdevice<span class="w"> </span><span class="c1">#0: subdevice #0</span>
 </pre></div>
 <p>We can now record a 10 second audio file using the following command.
 The parameters are:</p>
@@ -130,9 +129,9 @@ The parameters are:</p>
 <li><p><code class="docutils literal"><span class="pre">-f</span> dat</code>: the format of the recording (dat) (16 bit little endian, 48000 Hz)</p></li>
 <li><p><code class="docutils literal"><span class="pre">-c</span> 1</code>: the number of channels (1 channel, mono)</p></li>
 </ul>
-<div class="code"><pre class="code bash"><a id="rest_code_f0736fca5a5b49bb9d166be9107b4a5f-1" name="rest_code_f0736fca5a5b49bb9d166be9107b4a5f-1" href="#rest_code_f0736fca5a5b49bb9d166be9107b4a5f-1"></a>$<span class="w"> </span>arecord<span class="w"> </span>-D<span class="w"> </span>hw:2,0<span class="w"> </span>-d<span class="w"> </span><span class="m">10</span><span class="w"> </span>-f<span class="w"> </span>dat<span class="w"> </span>-c<span class="w"> </span><span class="m">1</span><span class="w"> </span>audio.wav
-<a id="rest_code_f0736fca5a5b49bb9d166be9107b4a5f-2" name="rest_code_f0736fca5a5b49bb9d166be9107b4a5f-2" href="#rest_code_f0736fca5a5b49bb9d166be9107b4a5f-2"></a>
-<a id="rest_code_f0736fca5a5b49bb9d166be9107b4a5f-3" name="rest_code_f0736fca5a5b49bb9d166be9107b4a5f-3" href="#rest_code_f0736fca5a5b49bb9d166be9107b4a5f-3"></a>Recording<span class="w"> </span>WAVE<span class="w"> </span><span class="s1">'audio.wav'</span><span class="w"> </span>:<span class="w"> </span>Signed<span class="w"> </span><span class="m">16</span><span class="w"> </span>bit<span class="w"> </span>Little<span class="w"> </span>Endian,<span class="w"> </span>Rate<span class="w"> </span><span class="m">48000</span><span class="w"> </span>Hz,<span class="w"> </span>Mono
+<div class="code"><pre class="code bash"><a id="rest_code_eb91bc19ee8f479c972d53c92f5bc1e0-1" name="rest_code_eb91bc19ee8f479c972d53c92f5bc1e0-1" href="#rest_code_eb91bc19ee8f479c972d53c92f5bc1e0-1"></a>$<span class="w"> </span>arecord<span class="w"> </span>-D<span class="w"> </span>hw:2,0<span class="w"> </span>-d<span class="w"> </span><span class="m">10</span><span class="w"> </span>-f<span class="w"> </span>dat<span class="w"> </span>-c<span class="w"> </span><span class="m">1</span><span class="w"> </span>audio.wav
+<a id="rest_code_eb91bc19ee8f479c972d53c92f5bc1e0-2" name="rest_code_eb91bc19ee8f479c972d53c92f5bc1e0-2" href="#rest_code_eb91bc19ee8f479c972d53c92f5bc1e0-2"></a>
+<a id="rest_code_eb91bc19ee8f479c972d53c92f5bc1e0-3" name="rest_code_eb91bc19ee8f479c972d53c92f5bc1e0-3" href="#rest_code_eb91bc19ee8f479c972d53c92f5bc1e0-3"></a>Recording<span class="w"> </span>WAVE<span class="w"> </span><span class="s1">'audio.wav'</span><span class="w"> </span>:<span class="w"> </span>Signed<span class="w"> </span><span class="m">16</span><span class="w"> </span>bit<span class="w"> </span>Little<span class="w"> </span>Endian,<span class="w"> </span>Rate<span class="w"> </span><span class="m">48000</span><span class="w"> </span>Hz,<span class="w"> </span>Mono
 </pre></div>
 </section></section>
 </div>
@@ -149,7 +148,7 @@ The parameters are:</p>
         <div id="disqus_thread"></div>
         <script>
         var disqus_shortname ="nikolademo",
-            disqus_url="https://example.com/posts/recording-insect-wingbeat-waveforms/",
+            disqus_url="https://aubreymoore.github.io/blog2025/posts/recording-insect-wingbeat-waveforms/",
         disqus_title="Recording Insect Wingbeat Waveforms",
         disqus_identifier="cache/posts/recording-insect-wingbeat-waveforms.html",
         disqus_config = function () {

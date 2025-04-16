@@ -6,151 +6,151 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
-  <loc>https://example.com/</loc>
+  <loc>https://aubreymoore.github.io/blog2025/</loc>
   <lastmod>2025-04-10T02:21:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/2012/</loc>
+  <loc>https://aubreymoore.github.io/blog2025/2012/</loc>
   <lastmod>2025-04-09T22:56:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/2025/</loc>
+  <loc>https://aubreymoore.github.io/blog2025/2025/</loc>
   <lastmod>2025-04-10T02:21:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/archive.html</loc>
+  <loc>https://aubreymoore.github.io/blog2025/archive.html</loc>
+  <lastmod>2025-04-16T02:17:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://aubreymoore.github.io/blog2025/authors/</loc>
+  <lastmod>2025-04-10T02:21:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://aubreymoore.github.io/blog2025/authors/aubrey-moore/</loc>
+  <lastmod>2025-04-10T02:21:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://aubreymoore.github.io/blog2025/authors/roberto-alsina/</loc>
+  <lastmod>2025-04-10T02:21:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://aubreymoore.github.io/blog2025/categories/</loc>
   <lastmod>2025-04-11T09:26:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/authors/</loc>
-  <lastmod>2025-04-10T02:21:00Z</lastmod>
+  <loc>https://aubreymoore.github.io/blog2025/categories/blog/</loc>
+  <lastmod>2025-04-09T22:56:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/authors/aubrey-moore/</loc>
-  <lastmod>2025-04-10T02:21:00Z</lastmod>
+  <loc>https://aubreymoore.github.io/blog2025/categories/cat_nikola/</loc>
+  <lastmod>2025-04-09T22:56:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/authors/roberto-alsina/</loc>
-  <lastmod>2025-04-10T02:21:00Z</lastmod>
+  <loc>https://aubreymoore.github.io/blog2025/categories/demo/</loc>
+  <lastmod>2025-04-09T22:56:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/categories/</loc>
+  <loc>https://aubreymoore.github.io/blog2025/categories/nikola/</loc>
+  <lastmod>2025-04-09T22:56:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://aubreymoore.github.io/blog2025/categories/python/</loc>
+  <lastmod>2025-04-09T22:56:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://aubreymoore.github.io/blog2025/categories/wingbeat/</loc>
   <lastmod>2025-04-11T09:26:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/categories/blog/</loc>
+  <loc>https://aubreymoore.github.io/blog2025/galleries/</loc>
   <lastmod>2025-04-09T22:56:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/categories/cat_nikola/</loc>
+  <loc>https://aubreymoore.github.io/blog2025/galleries/demo/</loc>
   <lastmod>2025-04-09T22:56:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/categories/demo/</loc>
+  <loc>https://aubreymoore.github.io/blog2025/listings/</loc>
   <lastmod>2025-04-09T22:56:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/categories/nikola/</loc>
+  <loc>https://aubreymoore.github.io/blog2025/listings/__pycache__/</loc>
   <lastmod>2025-04-09T22:56:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/categories/python/</loc>
+  <loc>https://aubreymoore.github.io/blog2025/listings/hello.py.html</loc>
+  <lastmod>2025-04-16T02:17:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://aubreymoore.github.io/blog2025/pages/about-nikola/</loc>
   <lastmod>2025-04-09T22:56:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/categories/wingbeat/</loc>
+  <loc>https://aubreymoore.github.io/blog2025/pages/bootstrap-demo/</loc>
+  <lastmod>2025-04-09T22:56:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://aubreymoore.github.io/blog2025/pages/charts/</loc>
+  <lastmod>2025-04-09T22:56:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://aubreymoore.github.io/blog2025/pages/creating-a-theme/</loc>
+  <lastmod>2025-04-09T22:56:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://aubreymoore.github.io/blog2025/pages/dr-nikolas-vendetta/</loc>
+  <lastmod>2025-04-09T22:56:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://aubreymoore.github.io/blog2025/pages/extending/</loc>
+  <lastmod>2025-04-09T22:56:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://aubreymoore.github.io/blog2025/pages/handbook/</loc>
+  <lastmod>2025-04-09T22:56:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://aubreymoore.github.io/blog2025/pages/internals/</loc>
+  <lastmod>2025-04-09T22:56:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://aubreymoore.github.io/blog2025/pages/listings-demo/</loc>
+  <lastmod>2025-04-09T22:56:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://aubreymoore.github.io/blog2025/pages/path-handlers/</loc>
+  <lastmod>2025-04-09T22:56:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://aubreymoore.github.io/blog2025/pages/quickref/</loc>
+  <lastmod>2025-04-09T22:56:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://aubreymoore.github.io/blog2025/pages/quickstart/</loc>
+  <lastmod>2025-04-09T22:56:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://aubreymoore.github.io/blog2025/pages/social_buttons/</loc>
+  <lastmod>2025-04-09T22:56:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://aubreymoore.github.io/blog2025/pages/theming/</loc>
+  <lastmod>2025-04-09T22:56:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://aubreymoore.github.io/blog2025/posts/newest_post/</loc>
+  <lastmod>2025-04-10T02:21:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://aubreymoore.github.io/blog2025/posts/recording-insect-wingbeat-waveforms/</loc>
   <lastmod>2025-04-11T09:26:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/galleries/</loc>
-  <lastmod>2025-04-09T22:56:00Z</lastmod>
- </url>
- <url>
-  <loc>https://example.com/galleries/demo/</loc>
-  <lastmod>2025-04-09T22:56:00Z</lastmod>
- </url>
- <url>
-  <loc>https://example.com/listings/</loc>
-  <lastmod>2025-04-09T22:56:00Z</lastmod>
- </url>
- <url>
-  <loc>https://example.com/listings/__pycache__/</loc>
-  <lastmod>2025-04-09T22:56:00Z</lastmod>
- </url>
- <url>
-  <loc>https://example.com/listings/hello.py.html</loc>
+  <loc>https://aubreymoore.github.io/blog2025/posts/shiny-new-post/</loc>
   <lastmod>2025-04-10T02:21:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/pages/about-nikola/</loc>
-  <lastmod>2025-04-09T22:56:00Z</lastmod>
- </url>
- <url>
-  <loc>https://example.com/pages/bootstrap-demo/</loc>
-  <lastmod>2025-04-09T22:56:00Z</lastmod>
- </url>
- <url>
-  <loc>https://example.com/pages/charts/</loc>
-  <lastmod>2025-04-09T22:56:00Z</lastmod>
- </url>
- <url>
-  <loc>https://example.com/pages/creating-a-theme/</loc>
-  <lastmod>2025-04-09T22:56:00Z</lastmod>
- </url>
- <url>
-  <loc>https://example.com/pages/dr-nikolas-vendetta/</loc>
-  <lastmod>2025-04-09T22:56:00Z</lastmod>
- </url>
- <url>
-  <loc>https://example.com/pages/extending/</loc>
-  <lastmod>2025-04-09T22:56:00Z</lastmod>
- </url>
- <url>
-  <loc>https://example.com/pages/handbook/</loc>
-  <lastmod>2025-04-09T22:56:00Z</lastmod>
- </url>
- <url>
-  <loc>https://example.com/pages/internals/</loc>
-  <lastmod>2025-04-09T22:56:00Z</lastmod>
- </url>
- <url>
-  <loc>https://example.com/pages/listings-demo/</loc>
-  <lastmod>2025-04-09T22:56:00Z</lastmod>
- </url>
- <url>
-  <loc>https://example.com/pages/path-handlers/</loc>
-  <lastmod>2025-04-09T22:56:00Z</lastmod>
- </url>
- <url>
-  <loc>https://example.com/pages/quickref/</loc>
-  <lastmod>2025-04-09T22:56:00Z</lastmod>
- </url>
- <url>
-  <loc>https://example.com/pages/quickstart/</loc>
-  <lastmod>2025-04-09T22:56:00Z</lastmod>
- </url>
- <url>
-  <loc>https://example.com/pages/social_buttons/</loc>
-  <lastmod>2025-04-09T22:56:00Z</lastmod>
- </url>
- <url>
-  <loc>https://example.com/pages/theming/</loc>
-  <lastmod>2025-04-09T22:56:00Z</lastmod>
- </url>
- <url>
-  <loc>https://example.com/posts/newest_post/</loc>
-  <lastmod>2025-04-10T02:21:00Z</lastmod>
- </url>
- <url>
-  <loc>https://example.com/posts/recording-insect-wingbeat-waveforms/</loc>
-  <lastmod>2025-04-11T09:26:00Z</lastmod>
- </url>
- <url>
-  <loc>https://example.com/posts/shiny-new-post/</loc>
-  <lastmod>2025-04-10T02:21:00Z</lastmod>
- </url>
- <url>
-  <loc>https://example.com/posts/welcome-to-nikola/</loc>
+  <loc>https://aubreymoore.github.io/blog2025/posts/welcome-to-nikola/</loc>
   <lastmod>2025-04-09T22:56:00Z</lastmod>
  </url>
 </urlset>
