@@ -6,7 +6,7 @@
 .. category: nikola
 
 ## Nikola installation
-Nikola was installed following directions at https://getnikola.com/getting-started.html
+Nikola was installed following directions at <https://getnikola.com/getting-started.html>
 
 ## Updating the blog
 Load the blog source directory into vscode:
