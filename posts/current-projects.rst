@@ -11,6 +11,7 @@ Recording insect wingbeat waveforms
 ===================================
 
 GitHub pages: https://aubreymoore.github.io/wingbeat-recorder/
+
 GitHub repository: https://github.com/aubreymoore/wingbeat-recorder
 
 Getting insect wingbeat waveforms from high speed videos
