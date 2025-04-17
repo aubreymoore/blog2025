@@ -8,11 +8,11 @@
 .. type: text
 
 
-Recording insect wingbeat waveforms `GitHub repo <https://github.com/aubreymoore/wingbeat-recorder>`_
+Recording insect wingbeat waveforms `GitHub repo1 <https://github.com/aubreymoore/wingbeat-recorder>`_
 
-Getting insect wingbeat waveforms from high speed videos 'GitHub repo <https://github.com/aubreymoore/beetles-in-flight>`_
+Getting insect wingbeat waveforms from high speed videos `GitHub repo2 <https://github.com/aubreymoore/beetles-in-flight>`_
 
-Monitoring internet speed `GitHub repo <https://github.com/aubreymoore/speedtest>`_
+Monitoring internet speed `GitHub repo3 <https://github.com/aubreymoore/speedtest>`_
 
 Automated coconut rhinoceros beetle damage surveys 
 
