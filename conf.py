@@ -145,6 +145,7 @@ NAVIGATION_LINKS = {
         ("/archive.html", "Archives"),
         ("/categories/index.html", "Tags"),
         ("/rss.xml", "RSS feed"),
+        ("/posts/current-projects/", "Projects"),
     ),
 }
 
