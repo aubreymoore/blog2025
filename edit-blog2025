@@ -1,0 +1,15 @@
+#!/bin/bash
+
+# Navigates to blog directory, activates the virtual environment and opens vs code
+
+# Place a copy of this this script in ~/bin (or any directory in PATH) if you want to execute it from any directory
+
+# Navigate to the blog site repository directory
+cd ~/Desktop/nikola-env/blog2025
+
+# Activate virtual environment
+source ../bin/activate
+
+# Open directory in vscode
+code .
+

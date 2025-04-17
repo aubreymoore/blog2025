@@ -9,17 +9,9 @@
 Nikola was installed following directions at <https://getnikola.com/getting-started.html>
 
 ## Updating the blog
-Load the blog source directory into vscode:
-```
-# Navigate to the blog site repository directory
-cd ~/Desktop/nikola-env/blog2025
+From a terminal execute ```edit-blog2025```.
+This bash script activates the virtual environment and opens the blog2025 directory in vs code.
 
-# Activate virtual environment
-source ../bin/activate
-
-# Open directory in vscode
-code .
-```
 ## Creating a new post
 Open a terminal and type ``nikola new_post``, then edit the new file in the ``posts`` directory.
 
