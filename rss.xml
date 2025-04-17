@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Aubrey Moore's Blog</title><link>https://aubreymoore.github.io/blog2025/</link><description>This is Aubrey Moore's blog.</description><atom:link href="https://aubreymoore.github.io/blog2025/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2025 &lt;a href="mailto:aubreymoore2013@gmail.com"&gt;Aubrey Moore&lt;/a&gt; </copyright><lastBuildDate>Thu, 17 Apr 2025 07:46:40 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Current Projects</title><link>https://aubreymoore.github.io/blog2025/posts/current-projects/</link><dc:creator>Aubrey Moore</dc:creator><description>&lt;section id="recording-insect-wingbeat-waveforms"&gt;
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Aubrey Moore's Blog</title><link>https://aubreymoore.github.io/blog2025/</link><description>This is Aubrey Moore's blog.</description><atom:link href="https://aubreymoore.github.io/blog2025/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2025 &lt;a href="mailto:aubreymoore2013@gmail.com"&gt;Aubrey Moore&lt;/a&gt; </copyright><lastBuildDate>Thu, 17 Apr 2025 07:54:50 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Current Projects</title><link>https://aubreymoore.github.io/blog2025/posts/current-projects/</link><dc:creator>Aubrey Moore</dc:creator><description>&lt;section id="recording-insect-wingbeat-waveforms"&gt;
 &lt;h2&gt;Recording insect wingbeat waveforms&lt;/h2&gt;
-&lt;p&gt;GitHub pages: &lt;a class="reference external" href="https://aubreymoore.github.io/wingbeat-recorder/"&gt;https://aubreymoore.github.io/wingbeat-recorder/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;GitHub repository: &lt;a class="reference external" href="https://github.com/aubreymoore/wingbeat-recorder"&gt;https://github.com/aubreymoore/wingbeat-recorder&lt;/a&gt;&lt;/p&gt;
 &lt;/section&gt;
 &lt;section id="getting-insect-wingbeat-waveforms-from-high-speed-videos"&gt;
@@ -11,6 +10,10 @@
 &lt;section id="monitoring-internet-speed"&gt;
 &lt;h2&gt;Monitoring internet speed&lt;/h2&gt;
 &lt;p&gt;GitHub repository: &lt;a class="reference external" href="https://github.com/aubreymoore/speedtest"&gt;https://github.com/aubreymoore/speedtest&lt;/a&gt;&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id="automated-coconut-rhinoceros-beetle-damage-surveys"&gt;
+&lt;h2&gt;Automated coconut rhinoceros beetle damage surveys&lt;/h2&gt;
+&lt;p&gt;GitHub repository:&lt;/p&gt;
 &lt;/section&gt;</description><guid>https://aubreymoore.github.io/blog2025/posts/current-projects/</guid><pubDate>Thu, 17 Apr 2025 07:05:33 GMT</pubDate></item><item><title>blog2025 technical notes</title><link>https://aubreymoore.github.io/blog2025/posts/blog2025-technical-notes/</link><dc:creator>Aubrey Moore</dc:creator><description>&lt;h3&gt;Nikola installation&lt;/h3&gt;
 &lt;p&gt;Nikola was installed following directions at &lt;a href="https://getnikola.com/getting-started.html"&gt;https://getnikola.com/getting-started.html&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;Updating the blog&lt;/h3&gt;
