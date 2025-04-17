@@ -2,7 +2,7 @@
 .. slug: getting-insect-wingbeat-waveforms-from-high-speed-videos
 .. date: 2025-04-17 08:07:01 UTC
 .. tags: 
-.. category: 
+.. category: project
 .. link: 
 .. description: 
 .. type: text

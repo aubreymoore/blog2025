@@ -2,7 +2,7 @@
 .. slug: recording-insect-wingbeat-waveforms
 .. date: 2025-04-17 08:06:20 UTC
 .. tags: 
-.. category: 
+.. category: project
 .. link: 
 .. description: 
 .. type: text
