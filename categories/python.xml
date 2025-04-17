@@ -1,18 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Aubrey Moore's Blog (Posts about python)</title><link>https://aubreymoore.github.io/blog2025/</link><description></description><atom:link href="https://aubreymoore.github.io/blog2025/categories/python.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2025 &lt;a href="mailto:aubreymoore2013@gmail.com"&gt;Aubrey Moore&lt;/a&gt; </copyright><lastBuildDate>Wed, 16 Apr 2025 03:15:45 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>blog2025 technical notes</title><link>https://aubreymoore.github.io/blog2025/posts/blog2025-technical-notes/</link><dc:creator>Aubrey Moore</dc:creator><description>&lt;h3&gt;Nikola installation&lt;/h3&gt;
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Aubrey Moore's Blog (Posts about python)</title><link>https://aubreymoore.github.io/blog2025/</link><description></description><atom:link href="https://aubreymoore.github.io/blog2025/categories/python.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2025 &lt;a href="mailto:aubreymoore2013@gmail.com"&gt;Aubrey Moore&lt;/a&gt; </copyright><lastBuildDate>Thu, 17 Apr 2025 07:36:11 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>blog2025 technical notes</title><link>https://aubreymoore.github.io/blog2025/posts/blog2025-technical-notes/</link><dc:creator>Aubrey Moore</dc:creator><description>&lt;h3&gt;Nikola installation&lt;/h3&gt;
 &lt;p&gt;Nikola was installed following directions at &lt;a href="https://getnikola.com/getting-started.html"&gt;https://getnikola.com/getting-started.html&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;Updating the blog&lt;/h3&gt;
-&lt;p&gt;Load the blog source directory into vscode:&lt;/p&gt;
-&lt;div class="code"&gt;&lt;pre class="code literal-block"&gt;# Navigate to the blog site repository directory
-cd ~/Desktop/nikola-env/blog2025
-
-# Activate virtual environment
-source ../bin/activate
-
-# Open directory in vscode
-code .
-&lt;/pre&gt;&lt;/div&gt;
-
+&lt;p&gt;From a terminal execute &lt;code&gt;edit-blog2025&lt;/code&gt;.
+This bash script activates the virtual environment and opens the blog2025 directory in vs code.&lt;/p&gt;
 &lt;h3&gt;Creating a new post&lt;/h3&gt;
 &lt;p&gt;Open a terminal and type &lt;code&gt;nikola new_post&lt;/code&gt;, then edit the new file in the &lt;code&gt;posts&lt;/code&gt; directory.&lt;/p&gt;
 &lt;h3&gt;Deploying updates to GitHub pages&lt;/h3&gt;

@@ -11,7 +11,7 @@
 <meta name="generator" content="Nikola (getnikola.com)">
 <link rel="alternate" type="application/rss+xml" title="RSS" hreflang="en" href="rss.xml">
 <link rel="canonical" href="https://aubreymoore.github.io/blog2025/">
-<!--[if lt IE 9]><script src="assets/js/html5.js"></script><![endif]--><link rel="prefetch" href="posts/blog2025-technical-notes/" type="text/html">
+<!--[if lt IE 9]><script src="assets/js/html5.js"></script><![endif]--><link rel="prefetch" href="posts/current-projects/" type="text/html">
 </head>
 <body>
 <a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
@@ -62,7 +62,32 @@ bg-dark
 
     
 <div class="postindex">
-    <article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/blog2025-technical-notes/" class="u-url">blog2025 technical notes</a></h1>
+    <article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/current-projects/" class="u-url">Current Projects</a></h1>
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
+                <a href="authors/aubrey-moore/">Aubrey Moore</a>
+            </span></p>
+            <p class="dateline">
+            <a href="posts/current-projects/" rel="bookmark">
+            <time class="published dt-published" datetime="2025-04-17T07:05:33Z" itemprop="datePublished" title="2025-04-17 07:05">2025-04-17 07:05</time></a>
+            </p>
+                <p class="commentline">
+    
+    <a href="posts/current-projects/#disqus_thread" data-disqus-identifier="cache/posts/current-projects.html">Comments</a>
+
+
+        </p>
+</div>
+    </header><div class="e-content entry-content">
+    <section id="recording-insect-wingbeat-waveforms"><h2>Recording insect wingbeat waveforms</h2>
+<p>GitHub repository: <a class="reference external" href="https://github.com/aubreymoore/wingbeat-recorder">https://github.com/aubreymoore/wingbeat-recorder</a></p>
+</section><section id="getting-insect-wingbeat-waveforms-from-high-speed-videos"><h2>Getting insect wingbeat waveforms from high speed videos</h2>
+<p>GitHub repository: <a class="reference external" href="https://github.com/aubreymoore/beetles-in-flight">https://github.com/aubreymoore/beetles-in-flight</a></p>
+</section><section id="monitoring-internet-speed"><h2>Monitoring internet speed</h2>
+<p>GitHub repository: <a class="reference external" href="https://github.com/aubreymoore/speedtest">https://github.com/aubreymoore/speedtest</a></p>
+</section>
+</div>
+    </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/blog2025-technical-notes/" class="u-url">blog2025 technical notes</a></h1>
         <div class="metadata">
             <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
                 <a href="authors/aubrey-moore/">Aubrey Moore</a>
@@ -82,17 +107,8 @@ bg-dark
     <h3>Nikola installation</h3>
 <p>Nikola was installed following directions at <a href="https://getnikola.com/getting-started.html">https://getnikola.com/getting-started.html</a></p>
 <h3>Updating the blog</h3>
-<p>Load the blog source directory into vscode:</p>
-<div class="code"><pre class="code literal-block"># Navigate to the blog site repository directory
-cd ~/Desktop/nikola-env/blog2025
-
-# Activate virtual environment
-source ../bin/activate
-
-# Open directory in vscode
-code .
-</pre></div>
-
+<p>From a terminal execute <code>edit-blog2025</code>.
+This bash script activates the virtual environment and opens the blog2025 directory in vs code.</p>
 <h3>Creating a new post</h3>
 <p>Open a terminal and type <code>nikola new_post</code>, then edit the new file in the <code>posts</code> directory.</p>
 <h3>Deploying updates to GitHub pages</h3>
