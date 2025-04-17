@@ -26,3 +26,5 @@ Automated coconut rhinoceros beetle damage surveys
 ==================================================
 
 GitHub repository: 
+
+link://slug/crb
