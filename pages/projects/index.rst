@@ -7,7 +7,9 @@
 .. description: 
 .. type: text
 
-Recording insect wingbeat waveforms `GitHub repo1 <https://github.com/aubreymoore/wingbeat-recorder>`_
+`Recording insect wingbeat waveforms <https://aubreymoore.github.io/blog2025/pages/recording-insect-wingbeat-waveforms>`_ 
+
+`GitHub repo1 <https://github.com/aubreymoore/wingbeat-recorder>`_
 
 Getting insect wingbeat waveforms from high speed videos `GitHub repo2 <https://github.com/aubreymoore/beetles-in-flight>`_
 
