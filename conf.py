@@ -314,7 +314,8 @@ TIMEZONE = "UTC"
 # 'html' assumes the file is HTML and just copies it
 COMPILERS = {
     "rest": ['.rst', '.txt'],
-    "markdown": ['.md', '.mdown', '.markdown'],
+    # "markdown": ['.md', '.mdown', '.markdown'],
+    "myst": ['.md', '.mdown', '.markdown'],
     "textile": ['.textile'],
     "txt2tags": ['.t2t'],
     "bbcode": ['.bb'],
