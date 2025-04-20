@@ -10,6 +10,7 @@
 Nikola was installed following directions at <https://getnikola.com/getting-started.html>
 
 I added the ``myst`` plugin so that I could use markdown with extended features for technical writing.
+Required installation of ``linkify-it-py``.
 
 ## Updating the blog
 From a terminal execute ```edit-blog2025```.
