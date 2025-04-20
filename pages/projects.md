@@ -7,14 +7,8 @@
 .. description: 
 .. type: text
 
-
 * [Recording insect wingbeat waveforms](https://aubreymoore.github.io/blog2025/pages/recording-insect-wingbeat-waveforms/)
-
-<!--
-* `GitHub repo1 <https://github.com/aubreymoore/wingbeat-recorder>`_
-* :doc:`Getting insect wingbeat waveforms from high speed videos <getting-insect-wingbeat-waveforms-from-high-speed-videos>`
-* `GitHub repo2 <https://github.com/aubreymoore/beetles-in-flight>`_
-* :doc:`Monitoring internet speed <monitoring-internet-speed>`
-* `GitHub repo3 <https://github.com/aubreymoore/speedtest>`_
-* :doc:`Automated coconut rhinoceros beetle damage surveys <automated-coconut-rhinoceros-beetle-damage-surveys>` 
+* [Getting insect wingbeat waveforms from high speed videos](https://aubreymoore.github.io/blog2025/pages/getting-insect-wingbeat-waveforms-from-high-speed-videos)
+* [Monitoring internet speed](https://aubreymoore.github.io/blog2025/pages/monitoring-internet-speed)
+* [Automated coconut rhinoceros beetle damage surveys](https://aubreymoore.github.io/blog2025/pages/automated-coconut-rhinoceros-beetle-damage-surveys)
 -->
