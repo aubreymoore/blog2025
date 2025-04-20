@@ -32,3 +32,4 @@ The light source is a 3W LED with a 450nm wavelength. The light source is mounte
 ## Miscellaneous ideas
 
 * Might be worthwhile to monitor what astronomers refer to as "solar seeing". Here's an [article on a DIY solar seeing monitor](https://www.blackwaterskies.co.uk/2017/06/diy-solar-scintillation-seeing-monitor-sssm/).
+* This [jupyter notebook](https://github.com/aubreymoore/beetles-in-flight/blob/main/code/btlflt.ipynb) may contain useful code for analysis.
