@@ -28,3 +28,7 @@ The light source is a 3W LED with a 450nm wavelength. The light source is mounte
 * monitoring of agricultural pests, pollinators and biological control agents
 * monitoring flight activity in the vicinity of honeybee hives to include foragers and pests such as hornets and hive beetles
 * measuring the efficacy of mosquito coils and other insect repellents
+
+## Miscellaneous ideas
+
+* Might be worthwhile to monitor what astronomers refer to as "solar seeing". Here's an [article on a DIY solar seeing monitor](https://www.blackwaterskies.co.uk/2017/06/diy-solar-scintillation-seeing-monitor-sssm/).
