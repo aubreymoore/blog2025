@@ -9,7 +9,7 @@
 
 .. image:: /images/wingbeat-recorder.jpg
    :alt: Wingbeat recorder
-   :width: 600
+   :width: 400
    :align: center
 
 Applications for this project include:
