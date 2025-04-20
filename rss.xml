@@ -1,13 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Aubrey Moore's Blog</title><link>https://aubreymoore.github.io/blog2025/</link><description>This is Aubrey Moore's blog.</description><atom:link href="https://aubreymoore.github.io/blog2025/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2025 &lt;a href="mailto:aubreymoore2013@gmail.com"&gt;Aubrey Moore&lt;/a&gt; </copyright><lastBuildDate>Thu, 17 Apr 2025 09:20:07 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>blog2025 technical notes</title><link>https://aubreymoore.github.io/blog2025/posts/blog2025-technical-notes/</link><dc:creator>Aubrey Moore</dc:creator><description>&lt;h3&gt;Nikola installation&lt;/h3&gt;
-&lt;p&gt;Nikola was installed following directions at &lt;a href="https://getnikola.com/getting-started.html"&gt;https://getnikola.com/getting-started.html&lt;/a&gt;&lt;/p&gt;
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Aubrey Moore's Blog</title><link>https://aubreymoore.github.io/blog2025/</link><description>This is Aubrey Moore's blog.</description><atom:link href="https://aubreymoore.github.io/blog2025/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2025 &lt;a href="mailto:aubreymoore2013@gmail.com"&gt;Aubrey Moore&lt;/a&gt; </copyright><lastBuildDate>Sun, 20 Apr 2025 03:28:43 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>MyST test</title><link>https://aubreymoore.github.io/blog2025/posts/myst-test/</link><dc:creator>Aubrey Moore</dc:creator><description>&lt;main id="myst-test"&gt;
+&lt;h2 class="title"&gt;MyST test&lt;/h2&gt;
+
+&lt;p&gt;A line of text.&lt;/p&gt;
+&lt;aside class="admonition important"&gt;
+&lt;p class="admonition-title"&gt;Important&lt;/p&gt;
+&lt;p&gt;Our Values
+We believe in a community-driven approach of open-source tools that are
+composable and extensible. You can find out how to be involved in developing MyST Markdown by getting involved in the [ExecutableBooks][executable-books] project.&lt;/p&gt;
+&lt;/aside&gt;
+&lt;aside class="admonition tip"&gt;
+&lt;p class="admonition-title"&gt;Tip&lt;/p&gt;
+&lt;p&gt;this is a MyST tip&lt;/p&gt;
+&lt;/aside&gt;
+&lt;/main&gt;</description><guid>https://aubreymoore.github.io/blog2025/posts/myst-test/</guid><pubDate>Sun, 20 Apr 2025 03:22:34 GMT</pubDate></item><item><title>blog2025 technical notes</title><link>https://aubreymoore.github.io/blog2025/posts/blog2025-technical-notes/</link><dc:creator>Aubrey Moore</dc:creator><description>&lt;main&gt;
+
+
+&lt;section id="nikola-installation"&gt;
+&lt;h3&gt;Nikola installation&lt;/h3&gt;
+&lt;p&gt;Nikola was installed following directions at &lt;a class="reference external" href="https://getnikola.com/getting-started.html"&gt;https://getnikola.com/getting-started.html&lt;/a&gt;&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id="updating-the-blog"&gt;
 &lt;h3&gt;Updating the blog&lt;/h3&gt;
-&lt;p&gt;From a terminal execute &lt;code&gt;edit-blog2025&lt;/code&gt;.
+&lt;p&gt;From a terminal execute &lt;code class="docutils literal"&gt;&lt;span class="pre"&gt;edit-blog2025&lt;/span&gt;&lt;/code&gt;.
 This bash script activates the virtual environment and opens the blog2025 directory in vs code.&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id="creating-a-new-post"&gt;
 &lt;h3&gt;Creating a new post&lt;/h3&gt;
-&lt;p&gt;Open a terminal and type &lt;code&gt;nikola new_post&lt;/code&gt;, then edit the new file in the &lt;code&gt;posts&lt;/code&gt; directory.&lt;/p&gt;
+&lt;p&gt;Open a terminal and type &lt;code class="docutils literal"&gt;nikola new_post&lt;/code&gt;, then edit the new file in the &lt;code class="docutils literal"&gt;posts&lt;/code&gt; directory.&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id="deploying-updates-to-github-pages"&gt;
 &lt;h3&gt;Deploying updates to GitHub pages&lt;/h3&gt;
-&lt;p&gt;Open a terminal and type &lt;code&gt;nikola github_deploy&lt;/code&gt;.&lt;/p&gt;</description><category>blog</category><category>nikola</category><category>python</category><guid>https://aubreymoore.github.io/blog2025/posts/blog2025-technical-notes/</guid><pubDate>Wed, 16 Apr 2025 00:00:00 GMT</pubDate></item><item><title>Recording Insect Wingbeat Waveforms</title><link>https://aubreymoore.github.io/blog2025/posts/recording-insect-wingbeat-waveforms/</link><dc:creator>Aubrey Moore</dc:creator><description>&lt;p&gt;Updated 2025-04-16&lt;/p&gt;
+&lt;p&gt;Open a terminal and type &lt;code class="docutils literal"&gt;nikola github_deploy&lt;/code&gt;.&lt;/p&gt;
+&lt;/section&gt;
+&lt;/main&gt;</description><category>blog</category><category>nikola</category><category>python</category><guid>https://aubreymoore.github.io/blog2025/posts/blog2025-technical-notes/</guid><pubDate>Wed, 16 Apr 2025 00:00:00 GMT</pubDate></item><item><title>Recording Insect Wingbeat Waveforms</title><link>https://aubreymoore.github.io/blog2025/posts/recording-insect-wingbeat-waveforms/</link><dc:creator>Aubrey Moore</dc:creator><description>&lt;p&gt;Updated 2025-04-16&lt;/p&gt;
 &lt;section id="making-the-sensor"&gt;
 &lt;h2&gt;Making the sensor&lt;/h2&gt;
 &lt;p&gt;Coming soon.&lt;/p&gt;
@@ -47,14 +73,32 @@ The parameters are:&lt;/p&gt;
 &lt;a id="rest_code_09eee2adf5e346d8a102b91b783586ed-3" name="rest_code_09eee2adf5e346d8a102b91b783586ed-3" href="https://aubreymoore.github.io/blog2025/posts/recording-insect-wingbeat-waveforms/#rest_code_09eee2adf5e346d8a102b91b783586ed-3"&gt;&lt;/a&gt;Recording&lt;span class="w"&gt; &lt;/span&gt;WAVE&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s1"&gt;'audio.wav'&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;:&lt;span class="w"&gt; &lt;/span&gt;Signed&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;16&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;bit&lt;span class="w"&gt; &lt;/span&gt;Little&lt;span class="w"&gt; &lt;/span&gt;Endian,&lt;span class="w"&gt; &lt;/span&gt;Rate&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;48000&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;Hz,&lt;span class="w"&gt; &lt;/span&gt;Mono
 &lt;/pre&gt;&lt;/div&gt;
 &lt;/section&gt;
-&lt;/section&gt;</description><category>wingbeat</category><guid>https://aubreymoore.github.io/blog2025/posts/recording-insect-wingbeat-waveforms/</guid><pubDate>Fri, 11 Apr 2025 09:14:51 GMT</pubDate></item><item><title>newest_post</title><link>https://aubreymoore.github.io/blog2025/posts/newest_post/</link><dc:creator>Aubrey Moore</dc:creator><description>&lt;h2&gt;Heading 1&lt;/h2&gt;
-&lt;h3&gt;Heading 2&lt;/h3&gt;
-&lt;h4&gt;Heading 3&lt;/h4&gt;
-&lt;h5&gt;Heading 4&lt;/h5&gt;
-&lt;h6&gt;Heading 5&lt;/h6&gt;
+&lt;/section&gt;</description><category>wingbeat</category><guid>https://aubreymoore.github.io/blog2025/posts/recording-insect-wingbeat-waveforms/</guid><pubDate>Fri, 11 Apr 2025 09:14:51 GMT</pubDate></item><item><title>newest_post</title><link>https://aubreymoore.github.io/blog2025/posts/newest_post/</link><dc:creator>Aubrey Moore</dc:creator><description>&lt;main id="heading-1"&gt;
+&lt;h2 class="title"&gt;Heading 1&lt;/h2&gt;
+&lt;p class="subtitle" id="heading-2"&gt;Heading 2&lt;/p&gt;
+
+&lt;section id="heading-3"&gt;
+&lt;h3&gt;Heading 3&lt;/h3&gt;
+&lt;section id="heading-4"&gt;
+&lt;h4&gt;Heading 4&lt;/h4&gt;
+&lt;section id="heading-5"&gt;
+&lt;h5&gt;Heading 5&lt;/h5&gt;
+&lt;section id="heading-6"&gt;
 &lt;h6&gt;Heading 6&lt;/h6&gt;
-&lt;p&gt;&lt;a href="https://aubreymoore.github.io/blog2025/posts/shiny-new-post/"&gt;Shiny New Post&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://jiaweizhuang.github.io/blog/nikola-guide/"&gt;Personal Website with Jupyter Support using Nikola and GitHub Page&lt;/a&gt;&lt;/p&gt;</description><guid>https://aubreymoore.github.io/blog2025/posts/newest_post/</guid><pubDate>Thu, 10 Apr 2025 01:42:09 GMT</pubDate></item><item><title>Shiny New Post</title><link>https://aubreymoore.github.io/blog2025/posts/shiny-new-post/</link><dc:creator>Aubrey Moore</dc:creator><description>&lt;p&gt;First paragraph.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://aubreymoore.github.io/blog2025/posts/newest_post/#system-message-1"&gt;&lt;span class="problematic" id="problematic-1"&gt;&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://jiaweizhuang.github.io/blog/nikola-guide/"&gt;Personal Website with Jupyter Support using Nikola and GitHub Page&lt;/a&gt;&lt;/p&gt;
+&lt;/section&gt;
+&lt;/section&gt;
+&lt;/section&gt;
+&lt;/section&gt;
+&lt;section class="system-messages"&gt;
+&lt;h3&gt;Docutils System Messages&lt;/h3&gt;
+&lt;aside class="system-message" id="system-message-1"&gt;
+&lt;p class="system-message-title"&gt;System Message: ERROR/3 (&lt;span class="docutils literal"&gt;&amp;lt;string&amp;gt;&lt;/span&gt;, line 8); &lt;em&gt;&lt;a href="https://aubreymoore.github.io/blog2025/posts/newest_post/#problematic-1"&gt;backlink&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Unknown target name: "link://slug/shiny-new-post".&lt;/p&gt;
+&lt;/aside&gt;
+&lt;/section&gt;
+&lt;/main&gt;</description><guid>https://aubreymoore.github.io/blog2025/posts/newest_post/</guid><pubDate>Thu, 10 Apr 2025 01:42:09 GMT</pubDate></item><item><title>Shiny New Post</title><link>https://aubreymoore.github.io/blog2025/posts/shiny-new-post/</link><dc:creator>Aubrey Moore</dc:creator><description>&lt;p&gt;First paragraph.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Second paragraph.&lt;/p&gt;
 &lt;/blockquote&gt;

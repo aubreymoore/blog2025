@@ -7,12 +7,21 @@
 .. description: 
 .. type: text
 
-.. image:: /images/wingbeat-recorder.jpg
+.. figure:: /images/wingbeat-recorder.jpg
    :alt: Wingbeat recorder
    :width: 400
    :align: center
+   :caption: Wingbeat recorder
 
-Applications for this project include:
+**Light sources**
+
+The sun is 
+
+The following sentence popped up as a suggestion by the vscode AI. Left it in for now, but it may not be relevant to the project.
+
+The light source is a 3W LED with a 450nm wavelength. The light source is mounted on a 3D-printed holder that can be adjusted to focus the light beam on the insect.
+
+**Applications for this project**
 
 * monitoring of agricultural pests, pollinators and biological control agents
 * monitoring flight activity in the vicinity of honeybee hives to include foragers and pests such as hornets and hive beetles
