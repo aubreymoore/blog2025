@@ -7,15 +7,14 @@
 .. description: 
 .. type: text
 
+[GitHub repository](https://github.com/aubreymoore/wingbeat-recorder)
+
 ```{figure} /images/wingbeat-recorder.jpg
 :scale: 10%
 :alt: alt
 
 Early days.
 ```
-
-[GitHub repository](https://github.com/aubreymoore/wingbeat-recorder)
-
 ## Light sources
 
 The sun is ...
