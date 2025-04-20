@@ -11,4 +11,3 @@
 * [Getting insect wingbeat waveforms from high speed videos](https://aubreymoore.github.io/blog2025/pages/getting-insect-wingbeat-waveforms-from-high-speed-videos)
 * [Monitoring internet speed](https://aubreymoore.github.io/blog2025/pages/monitoring-internet-speed)
 * [Automated coconut rhinoceros beetle damage surveys](https://aubreymoore.github.io/blog2025/pages/automated-coconut-rhinoceros-beetle-damage-surveys)
--->
